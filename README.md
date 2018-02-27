@@ -37,7 +37,7 @@ compile 'cn.bertsir.menuitemlibary:menuitemlibary:1.0.0'
 
 ## 参数列表
 | name |  description |
-| ------------- |:-------------:| :-------------:|
+| ------------- | :-------------:|
 | leftImgRes| 设置左侧图标，不设置为无图|
 | leftImgWidht|  设置左侧图标宽 |
 | leftImgHeight| 设置左侧图标高 |
