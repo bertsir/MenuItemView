@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RedPointView">
+        <attr name="ponitColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MenuItemView">
+        <attr name="leftImgRes" format="reference" />
+        <attr name="leftImgWidht" format="dimension" />
+        <attr name="leftImgHeight" format="dimension" />
+        <attr name="leftImgMarginLeft" format="dimension" />
+        <attr name="contentMarginLeft" format="dimension" />
+        <attr name="content" format="string" />
+        <attr name="contentSize" format="dimension" />
+        <attr name="contentColor" format="color|reference" />
+        <attr name="showRedPoint" format="boolean" />
+        <attr name="RedPointSize" format="dimension" />
+        <attr name="RedPointColor" format="color|reference" />
+        <attr name="rightImgRes" format="reference" />
+        <attr name="rightImgWidht" format="dimension" />
+        <attr name="rightImgHeight" format="dimension" />
+        <attr name="rightImgMarginRight" format="dimension" />
+        <attr name="spliteLineColor" format="color" />
+        <attr name="spliteLineHegiht" format="dimension" />
+        <attr name="spliteLineMarginLeft" format="dimension" />
+        <attr name="spliteLineMarginRight" format="dimension" />
+        <attr name="showSpliteLine" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

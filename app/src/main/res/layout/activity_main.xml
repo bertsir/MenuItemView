@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="cn.bertsir.menuitem.MainActivity">
+
+    <cn.bertsir.menuitemlibary.MenuItemView
+        android:id="@+id/miv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:leftImgRes="@drawable/mine_xx"
+        app:leftImgHeight="20dp"
+        app:leftImgWidht="20dp"
+        app:leftImgMarginLeft="15dp"
+        app:content="我的消息"
+        app:contentColor="@color/colorAccent"
+        app:contentSize="16sp"
+        app:showRedPoint="true"
+        app:RedPointSize="10dp"
+        app:rightImgRes="@drawable/mine_into"
+        app:spliteLineHegiht="0.5dp"
+        app:spliteLineMarginLeft="15dp"
+        app:rightImgWidht="20dp"
+        app:rightImgHeight="20dp"
+        />
+    <cn.bertsir.menuitemlibary.MenuItemView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:leftImgHeight="20dp"
+        app:leftImgWidht="20dp"
+        app:leftImgMarginLeft="15dp"
+        app:content="个人中心"
+        app:contentColor="@color/colorAccent"
+        app:contentSize="16sp"
+        app:showRedPoint="true"
+        app:RedPointSize="7dp"
+        app:spliteLineHegiht="0.5dp"
+        app:spliteLineMarginLeft="15dp"
+        />
+    <Button
+        android:id="@+id/bt_show_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示小红点"
+        />
+
+    <Button
+        android:id="@+id/bt_hide_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐藏小红点"
+        />
+
+</LinearLayout>
