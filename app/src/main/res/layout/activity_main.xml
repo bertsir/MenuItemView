@@ -26,7 +26,8 @@
         app:spliteLineMarginLeft="15dp"
         app:rightImgWidht="20dp"
         app:rightImgHeight="20dp"
-        />
+        >
+        </cn.bertsir.menuitemlibary.MenuItemView>
     <cn.bertsir.menuitemlibary.MenuItemView
         android:layout_width="match_parent"
         android:layout_height="50dp"

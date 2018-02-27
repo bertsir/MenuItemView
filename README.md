@@ -34,6 +34,28 @@ GitHub下载库，使用File -> new -> Import Module方式
 compile 'cn.bertsir.menuitemlibary:menuitemlibary:1.0.0'
 </pre>
 
+## 使用
+````
+<cn.bertsir.menuitemlibary.MenuItemView
+   android:id="@+id/miv"
+   android:layout_width="match_parent"
+   android:layout_height="50dp"
+   app:leftImgRes="@drawable/mine_xx"
+   app:leftImgHeight="20dp"
+   app:leftImgWidht="20dp"
+   app:leftImgMarginLeft="15dp"
+   app:content="我的消息"
+   app:contentColor="@color/colorAccent"
+   app:contentSize="16sp"
+   app:showRedPoint="true"
+   app:RedPointSize="10dp"
+   app:rightImgRes="@drawable/mine_into"
+   app:spliteLineHegiht="0.5dp"
+   app:spliteLineMarginLeft="15dp"
+   app:rightImgWidht="20dp"
+   app:rightImgHeight="20dp"
+   />
+````
 
 ## 参数列表
 | name |  description |
@@ -59,25 +81,3 @@ compile 'cn.bertsir.menuitemlibary:menuitemlibary:1.0.0'
 | spliteLineMarginRight|  设置下方分割线距离右面的距离 |
 | showSpliteLine|  设置是否显示下方分割线 |
 
-## 使用
-<pre>
-    <cn.bertsir.menuitemlibary.MenuItemView
-        android:id="@+id/miv"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        app:leftImgRes="@drawable/mine_xx"
-        app:leftImgHeight="20dp"
-        app:leftImgWidht="20dp"
-        app:leftImgMarginLeft="15dp"
-        app:content="我的消息"
-        app:contentColor="@color/colorAccent"
-        app:contentSize="16sp"
-        app:showRedPoint="true"
-        app:RedPointSize="10dp"
-        app:rightImgRes="@drawable/mine_into"
-        app:spliteLineHegiht="0.5dp"
-        app:spliteLineMarginLeft="15dp"
-        app:rightImgWidht="20dp"
-        app:rightImgHeight="20dp"
-        />
-</pre>
